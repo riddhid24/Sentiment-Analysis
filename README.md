@@ -94,5 +94,23 @@ The model is trained on the preprocessed text data using the training dataset. Y
 
 ## Evaluation
 
-The trained model is evaluated on a validation dataset, and metrics such as accuracy, confusion matrix, and classification report are provided. You can further customize the evaluation metrics based on your needs.
+The trained model is evaluated on a validation dataset, and metrics such as accuracy, confusion matrix, and classification report are provided.
+
+Test Accuracy: 50.67%
+Confusion Matrix:
+[[ 2 73]
+[ 1 74]]
+Classification Report:
+            precision recall f1-score support
+0           0.67      0.03      0.05        75
+1           0.50      0.99      0.67        75
+
+accuracy                        0.51         150
+macro avg    0.59     0.51      0.36         150
+weighted avg 0.59     0.51      0.36         150
+
+In this example, the dataset is limited to 1000 rows.
+![Alt text](img-1.png)
+
+
 
